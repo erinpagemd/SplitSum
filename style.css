@@ -1,4 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
 body{
   background-image: url('splitter.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0;
+}
+
+.calculator {
+  background-color: #6c737a;
+  background-image: radial-gradient(ellipse, #6c737a, black);
+  padding: 5%;
+}
+
+.heading {
+  font-size: 2rem;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.math input {
+  width: 250px;
+  height: 40px;
+  font-size: 2rem;
+}
+
+#add {
+  background-color: #b35801;
+  border: 2px solid black;
+  width: 80px;
+  height: 50px;
+}
+
+#equals {
+  color: white;
+  font-size: 2rem;
+}
+
+#numbers:focus, #answer:focus {
+  background-color: #e9c500;
+  color: white;
 }

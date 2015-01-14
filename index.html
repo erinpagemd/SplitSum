@@ -9,12 +9,17 @@
   </head>
 
   <body>
-    <div id='calculator'>
-      <h1>String Splitter</h1>
-      <input id='numbers' type='text'>
-      <input type = 'button' id='add' value='Sum'>
-      <span>=</span>
-      <input id='answer' type=text>
+    <div class='calculator'>
+      <div class="heading">
+        <h1>String Splitter</h1>
+        <h4>Enter numbers separated by commas and press the button for the sum!</h4>
+      </div>
+      <form class="math">
+        <input id='numbers' type='text' placeholder="1, 2, 3, 4">
+        <input type='button' id='add' value='Sum'>
+        <span id="equals"> = </span>
+        <input id='answer' type=text>
+      </form>
     </div>
   </body>
 </html>
